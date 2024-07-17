@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+  overflow-y: hidden;
+  background-color: rgb(153, 135, 234);
+}
+
+.title {
+  margin: 5px;
+  font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
+  color: #fff;
+}
+
+.title:hover {
+  color: rgb(231, 195, 195);
+}
+
+.set {
+  padding: 10px 20px;
+}
+
+.w {
+  background-image: url("images/tom1.png");
+}
+
+.e {
+  background-image: url("images/tom2.png");
+}
+
+.r {
+  background-image: url("images/tom3.png");
+}
+
+.t {
+  background-image: url("images/tom4.png");
+}
+
+.j {
+  background-image: url("images/crash.png");
+}
+
+.k {
+  background-image: url("images/kick.png");
+}
+
+.l {
+  background-image: url("images/snare.png");
+}
+
+.drum{
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 15px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 900;
+    font-size: 2rem;
+    border: 5px solid black;
+}
+
+.pressed{
+  border: 5px solid #fff;
+    opacity: 0.6;
+    color: #fff;
+}
+
+.footer{
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: "Courier New", Courier, monospace;
+  margin: 50px;
+}
